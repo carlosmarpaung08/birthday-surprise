@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6eb4"/>
+      <stop offset="100%" style="stop-color:#c084fc"/>
+    </linearGradient>
+    <linearGradient id="candle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fde68a"/>
+      <stop offset="60%" style="stop-color:#fb923c"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <linearGradient id="cake" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fecdd3"/>
+      <stop offset="100%" style="stop-color:#fda4af"/>
+    </linearGradient>
+    <linearGradient id="icing" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="50%" style="stop-color:#fce7f3"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded background -->
+  <rect width="128" height="128" rx="28" ry="28" fill="url(#bg)"/>
+
+  <!-- Cake base bottom layer -->
+  <rect x="24" y="76" width="80" height="28" rx="6" fill="url(#cake)"/>
+
+  <!-- Cake top layer -->
+  <rect x="32" y="58" width="64" height="24" rx="5" fill="#f9a8d4"/>
+
+  <!-- Icing drip -->
+  <path d="M32 62 Q36 70 40 62 Q44 55 48 62 Q52 70 56 62 Q60 55 64 62 Q68 70 72 62 Q76 55 80 62 Q84 70 88 62 Q92 55 96 62" fill="none" stroke="url(#icing)" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Candle -->
+  <rect x="58" y="36" width="12" height="24" rx="3" fill="url(#candle)"/>
+
+  <!-- Candle stripes -->
+  <line x1="58" y1="44" x2="70" y2="44" stroke="#fcd34d" stroke-width="1.5" opacity="0.5"/>
+  <line x1="58" y1="50" x2="70" y2="50" stroke="#fcd34d" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Flame -->
+  <ellipse cx="64" cy="28" rx="7" ry="11" fill="url(#flame)"/>
+  <ellipse cx="64" cy="26" rx="3" ry="5" fill="#fef3c7" opacity="0.8"/>
+
+  <!-- Sparkles -->
+  <circle cx="38" cy="46" r="2.5" fill="white" opacity="0.8"/>
+  <circle cx="90" cy="50" r="2" fill="white" opacity="0.7"/>
+  <circle cx="48" cy="96" r="1.8" fill="white" opacity="0.6"/>
+  <circle cx="82" cy="92" r="2.2" fill="white" opacity="0.7"/>
+  <circle cx="26" cy="70" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="100" cy="72" r="1.8" fill="white" opacity="0.5"/>
+</svg>
