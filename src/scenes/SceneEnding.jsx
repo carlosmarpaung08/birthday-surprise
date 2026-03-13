@@ -37,7 +37,7 @@ export default function SceneEnding({ name, age }) {
           border: "1px solid rgba(255,110,180,0.2)",
         }}>
           <p style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.5)" }}>
-            dibuat dengan 💕 khusus buat kamu
+            Semoga hari-harimu indah, se indah dunia ini. Love you 💞
           </p>
         </div>
       </div>
