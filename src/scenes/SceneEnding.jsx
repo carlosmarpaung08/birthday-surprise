@@ -26,7 +26,7 @@ export default function SceneEnding({ name, age }) {
         </p>
 
         <p style={{ fontSize: "0.85rem", color: "rgba(255,255,255,0.6)", marginBottom: "16px" }}>
-          Selamat ulang tahun sekali lagi, <strong style={{ color: "#ff6eb4" }}>{name}</strong>! Semoga hari-harimu selalu se-manis kue ultahmu~ 🍰
+          Selamat ulang tahun sekali lagi, <strong style={{ color: "#ff6eb4" }}>{name}</strong>! Semoga hari-harimu selalu seindah dunia ini~ Love you 💞
         </p>
 
         <div style={{
@@ -37,7 +37,7 @@ export default function SceneEnding({ name, age }) {
           border: "1px solid rgba(255,110,180,0.2)",
         }}>
           <p style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.5)" }}>
-            Semoga hari-harimu indah, se indah dunia ini. Love you 💞
+            dibuat dengan 💕 khusus buat kamu
           </p>
         </div>
       </div>
